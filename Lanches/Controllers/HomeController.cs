@@ -11,10 +11,11 @@ namespace Lanches.Controllers {
         }
 
         public IActionResult Index() {
+            TempData["Nome"] = "Machado";
             return View();
         }
 
-        public IActionResult Demo() {
+        public IActionResult Lanche() {
             return View();
         }
 
