@@ -1,4 +1,6 @@
 ﻿using Lanches.Context;
+using Lanches.Repositories;
+using Lanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lanches;
@@ -13,6 +15,9 @@ public class Startup {
     public void ConfigureServices(IServiceCollection services) {
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddTransient<ILancheRepository, LancheRepository>();
+        services.AddTransient<ICategoryRepository, CategoryRepository>();
 
         services.AddControllersWithViews();
     }
