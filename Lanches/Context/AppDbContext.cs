@@ -9,5 +9,6 @@ namespace Lanches.Context {
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
     }
 }
