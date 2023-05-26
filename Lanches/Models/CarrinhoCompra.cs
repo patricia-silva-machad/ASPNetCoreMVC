@@ -1,4 +1,5 @@
 using Lanches.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lanches.Models
 {
@@ -72,6 +73,35 @@ namespace Lanches.Models
             }
             _context.SaveChanges();
             return quantidadeLocal;
+        }
+
+        // retorna uma instancia dos itens do carrinho de compras se nao for null, se for nula vai obter todos os carrinhos com seus itens na tabela de carrinhoCompras.
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+        {
+            return CarrinhoCompraItems ??
+                (CarrinhoCompraItems =
+                    _context.CarrinhoCompraItens
+                    .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
+                    .Include(s => s.Lanche)
+                    .ToList());
+        }
+        // localiza no carrinho de compras todos os carrinhos com id expecifico e usa o metodo removeRange, removendo todos os itens de um carrinho de compra com um id expecifico. 
+        public void LimparCarrinho()
+        {
+            var carrinhoItens = _context.CarrinhoCompraItens
+                    .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
+            
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+            _context.SaveChanges();
+        }
+
+        // retorna um decimal do total de todos os itens de um carrinho de compras, usa a instancia de contexto, filtrando o carrinho com o id, seleciona do carrinho o preço e a quantidade e exibe o total do carrinho.
+        
+        public void GetCarrinhoCompraTotal()
+        {
+            var total = _context.CarrinhoCompraItens
+                .Where(c => c.CarrinhoCompraId ==CarrinhoCompraId)
+                .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
         }
     }
 }
