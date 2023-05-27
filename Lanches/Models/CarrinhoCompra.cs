@@ -11,7 +11,7 @@ namespace Lanches.Models
             _context = context;
         }
         public string CarrinhoCompraId{get; set;}
-        public List<CarrinhoCompraItem> CarrinhoCompraItems {get; set;}
+        public List<CarrinhoCompraItem> CarrinhoCompraItens {get; set;}
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
             //define uma sessão
@@ -76,10 +76,10 @@ namespace Lanches.Models
         }
 
         // retorna uma instancia dos itens do carrinho de compras se nao for null, se for nula vai obter todos os carrinhos com seus itens na tabela de carrinhoCompras.
-        public List<CarrinhoCompraItem> GetCarrinhoCompraItems()
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
         {
-            return CarrinhoCompraItems ??
-                (CarrinhoCompraItems =
+            return CarrinhoCompraItens ??
+                (CarrinhoCompraItens =
                     _context.CarrinhoCompraItens
                     .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
                     .Include(s => s.Lanche)
@@ -97,11 +97,13 @@ namespace Lanches.Models
 
         // retorna um decimal do total de todos os itens de um carrinho de compras, usa a instancia de contexto, filtrando o carrinho com o id, seleciona do carrinho o preço e a quantidade e exibe o total do carrinho.
         
-        public void GetCarrinhoCompraTotal()
+        public decimal GetCarrinhoCompraTotal()
         {
             var total = _context.CarrinhoCompraItens
                 .Where(c => c.CarrinhoCompraId ==CarrinhoCompraId)
                 .Select(c => c.Lanche.Preco * c.Quantidade).Sum();
+                
+            return total;
         }
     }
 }
