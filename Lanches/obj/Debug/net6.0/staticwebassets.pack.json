@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\carousel13.jpg"
     },
     {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\carrinho.png",
+      "PackagePath": "staticwebassets\\images\\carrinho.png"
+    },
+    {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\download.png",
       "PackagePath": "staticwebassets\\images\\download.png"
     },

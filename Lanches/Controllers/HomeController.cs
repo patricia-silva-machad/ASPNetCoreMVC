@@ -1,28 +1,38 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Lanches.Models;
 using System.Diagnostics;
+using Lanches.Repositories.Interfaces;
+using Lanches.ViewModels;
 
 namespace Lanches.Controllers {
-    public class HomeController : Controller {
-        private readonly ILogger<HomeController> _logger;
+    public class HomeController : Controller 
+    {
+        private readonly ILancheRepository _lancheRepository;
 
-        public HomeController(ILogger<HomeController> logger) {
-            _logger = logger;
+        public HomeController(ILancheRepository lancheRepository) 
+        {
+            _lancheRepository = lancheRepository;
         }
 
-        public IActionResult Index() {
-            TempData["Nome"] = "Machado";
-            return View();
+        public IActionResult Index() 
+        {
+            var homeViewModel = new HomeViewModel {
+
+                LanchesPreferidos = _lancheRepository.LanchesPreferidos
+            };
+            return View(homeViewModel);
         }
 
-        public IActionResult Lanche() {
-            return View();
-        }
 
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error() {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, 
+            NoStore = true)]
+        public IActionResult Error() 
+        {
+            return View(new ErrorViewModel 
+            { 
+                RequestId = Activity.Current?.Id 
+                ?? HttpContext.TraceIdentifier 
+            });
         }
     }
 }

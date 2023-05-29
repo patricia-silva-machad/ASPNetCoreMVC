@@ -12,6 +12,7 @@ namespace Lanches.Repositories {
         }
         public IEnumerable<Lanche> Lanches => _context.Lanches.Include(c => c.Categories);
 
+        //metodo que retorna os lanches preferidos
         public IEnumerable<Lanche> LanchesPreferidos => _context.Lanches
                                     .Where(l => l.IsLanchePreferido)
                                     .Include(c => c.Categories);
