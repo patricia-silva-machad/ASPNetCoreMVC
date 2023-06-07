@@ -1,8 +1,8 @@
 ﻿using Lanches.Models;
 
 namespace Lanches.Repositories.Interfaces {
-    public interface ICategoryRepository {
+    public interface ICategoriaRepository {
         //definindo uma propriedade somente leitura que vai retornar uma coleção de objetos categorias
-        IEnumerable<Category> Categories { get; }
+        IEnumerable<Categoria> Categorias { get; }
     }
 }

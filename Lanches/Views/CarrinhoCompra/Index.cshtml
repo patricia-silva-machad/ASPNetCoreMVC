@@ -1,9 +1,8 @@
 ﻿@model CarrinhoCompraViewModel
 <div class="Container">
-    <div class="row">
-        <img src="~/images/shopping-cart-png-5a3a8fca5f1485.3449050215137873383895.jpg"/>
+    <div class="row checkoutForm">
         <div>
-            <h4>Seu carrinho de compras: </h4>
+            <img src="~/images/Full-Cart-icon.png width="30" height="35"> <h4>Seu carrinho de compras: </h4>
         </div>
         <table class="table table-bordered table-striped">
             <thead>
@@ -28,7 +27,7 @@
                         </td>
                         <td class="text-center">
                             <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
-                               asp-route-lancheId="@item.Lanche.LancheId"><img src="~/images/download.png" />
+                               asp-route-lancheId="@item.Lanche.LancheId"><img src="~/images/delete.png" width="20px" height="20px"/>
                            </a>
                         </td>
                     </tr>

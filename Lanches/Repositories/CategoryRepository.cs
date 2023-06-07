@@ -5,16 +5,16 @@ using Lanches.Repositories.Interfaces;
 
 // classe concreta que implementa a interface
 namespace Lanches.Repositories {
-    public class CategoryRepository : ICategoryRepository 
+    public class CategoriaRepository : ICategoriaRepository 
     {   
         //injetando uma instancia do contexto no construtor do repositorio
         private readonly AppDbContext _context;
 
-        public CategoryRepository(AppDbContext context) {
+        public CategoriaRepository(AppDbContext context) {
             _context = context;
         }
 
         //implementando a propriedade categoria, retornando todas as categorias da tabela
-        public IEnumerable<Category> Categories => _context.Categories;
+        public IEnumerable<Categoria> Categorias => _context.Categorias;
     }
 }

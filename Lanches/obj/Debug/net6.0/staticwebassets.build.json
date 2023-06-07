@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JuMJL0xJ++QuHXoJlR+QI9/ej6NWhh5hlKWn3Dsh7OA=",
+  "Hash": "Q47kFM1C/z/3enHBOF7QgHeduK7jwKE3YCORSltzalY=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -153,6 +153,40 @@
       "OriginalItemSpec": "wwwroot\\images\\carrinho.png"
     },
     {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\cart-5-16.ico",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/cart-5-16.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cart-5-16.ico"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\delete.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/delete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\delete.png"
+    },
+    {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\download.png",
       "SourceId": "Lanches",
       "SourceType": "Discovered",
@@ -204,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\images\\faleconosco1.jpg"
     },
     {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Full-Cart-icon.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/Full-Cart-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Full-Cart-icon.png"
+    },
+    {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Home-iconred.png",
       "SourceId": "Lanches",
       "SourceType": "Discovered",
@@ -236,23 +287,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\phone-app-icon.png"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\shopping-cart-png-5a3a8fca5f1485.3449050215137873383895.jpg",
-      "SourceId": "Lanches",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
-      "BasePath": "_content/Lanches",
-      "RelativePath": "images/shopping-cart-png-5a3a8fca5f1485.3449050215137873383895.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\shopping-cart-png-5a3a8fca5f1485.3449050215137873383895.jpg"
     },
     {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\js\\site.js",

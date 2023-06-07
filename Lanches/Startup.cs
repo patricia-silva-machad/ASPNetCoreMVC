@@ -18,7 +18,7 @@ public class Startup {
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         services.AddTransient<ILancheRepository, LancheRepository>();
-        services.AddTransient<ICategoryRepository, CategoryRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
@@ -45,7 +45,12 @@ public class Startup {
         app.UseAuthorization();
         app.UseSession();
 
-        app.UseEndpoints(endpoints => {
+        app.UseEndpoints(endpoints => 
+        {
+            endpoints.MapControllerRoute(name: "categoriaFiltro",
+                pattern: "Lanche/{action}/{categoria?}",
+                defaults: new { Controller = "Lanche", action = "List"});
+
             endpoints.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

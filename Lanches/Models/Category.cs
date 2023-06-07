@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Lanches.Models 
 {
-    [Table("Categories")]
-    public class Category 
+    [Table("Categorias")]
+    public class Categoria 
     {
         [Key]
         public int CategoriaId { get; set; }
@@ -12,7 +12,7 @@ namespace Lanches.Models
         [StringLength(100, ErrorMessage ="O tamanho max é de 100 caracteres")]
         [Required(ErrorMessage ="Informe o nome da categoria")]
         [Display(Name ="Nome")]
-         public string CategoriaNome { get; set; }
+        public string CategoriaNome { get; set; }
 
         [StringLength(200, ErrorMessage = "O tamanho max é de 200 caracteres")]
         [Required(ErrorMessage = "Informe a descrição da categoria")]
