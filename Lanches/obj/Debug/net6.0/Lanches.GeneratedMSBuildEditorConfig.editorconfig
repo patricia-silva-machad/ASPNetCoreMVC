@@ -36,12 +36,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/_IndexPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSW5kZXhQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/CheckoutCompleto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]

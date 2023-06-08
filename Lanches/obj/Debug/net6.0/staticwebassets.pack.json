@@ -25,6 +25,54 @@
       "PackagePath": "staticwebassets\\images\\Home-iconred.png"
     },
     {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-caixa-de-selecção-seleccionada-2-48.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-caixa-de-selecção-seleccionada-2-48.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-comida-fast-food-street-food-18-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-comida-fast-food-street-food-18-50.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-comida-natural-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-comida-natural-50.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-comida-natural-80.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-comida-natural-80.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-desconto-48.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-desconto-48.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-email-open-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-email-open-50.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-get-dressed-32.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-get-dressed-32.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-get-dressed-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-get-dressed-50.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-hamburger-32.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-hamburger-32.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-hamburger-58.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-hamburger-58.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-love-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-love-50.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\Layout\\icons8-speaker-phone-50.png",
+      "PackagePath": "staticwebassets\\images\\Layout\\icons8-speaker-phone-50.png"
+    },
+    {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\carousel11.jpg",
       "PackagePath": "staticwebassets\\images\\carousel11.jpg"
     },
