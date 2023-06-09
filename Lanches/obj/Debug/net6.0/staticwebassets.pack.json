@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\images\\Layout\\icons8-speaker-phone-50.png"
     },
     {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\add-friend.png",
+      "PackagePath": "staticwebassets\\images\\add-friend.png"
+    },
+    {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\carousel11.jpg",
       "PackagePath": "staticwebassets\\images\\carousel11.jpg"
     },
