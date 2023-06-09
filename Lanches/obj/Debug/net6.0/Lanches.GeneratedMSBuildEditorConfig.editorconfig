@@ -9,85 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lanches
 build_property.RootNamespace = Lanches
-build_property.ProjectDir = c:\Users\patri\Cursos-Udemy\Dotnet6-Udemy\ASPNetCoreMVC\Lanches\
+build_property.ProjectDir = C:\Users\patri\Cursos-Udemy\Dotnet6-Udemy\ASPNetCoreMVC\Lanches\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\patri\Cursos-Udemy\Dotnet6-Udemy\ASPNetCoreMVC\Lanches
+build_property.MSBuildProjectDirectory = C:\Users\patri\Cursos-Udemy\Dotnet6-Udemy\ASPNetCoreMVC\Lanches
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/CarrinhoCompra/Index.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/CarrinhoCompra/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Contato/Index.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Demo.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Index.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Privacy.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/_IndexPartial.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Home/_IndexPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSW5kZXhQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/Details.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/List.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Lanche/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/Checkout.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/CheckoutCompleto.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Pedido/CheckoutCompleto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENoZWNrb3V0Q29tcGxldG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Components/CarrinhoCompraResumo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FycmluaG9Db21wcmFSZXN1bW9cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Components/CategoriaMenu/Default.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Components/CategoriaMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Error.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_Carousel.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_LanchesResumo.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_LanchesResumo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYW5jaGVzUmVzdW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/_ViewImports.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/_ViewStart.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_Layout.cshtml]
+[C:/Users/patri/Cursos-Udemy/Dotnet6-Udemy/ASPNetCoreMVC/Lanches/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a7u238c59a

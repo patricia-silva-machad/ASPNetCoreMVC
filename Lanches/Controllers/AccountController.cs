@@ -19,7 +19,7 @@ namespace Lanches.Controllers {
         public IActionResult Login(string returnUrl) 
         {
             return View(new LoginViewModel() 
-            {
+            { 
                 ReturnUrl = returnUrl
             });
         }
