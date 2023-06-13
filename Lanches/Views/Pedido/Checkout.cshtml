@@ -2,9 +2,7 @@
 
 <h3>Você esta a um passo de completar o seu pedido</h3>
 <hr/>
-
 <form asp-action="Checkout" method="post" class="form-horizontal" role="form">
-
     <div class="row">
         <div class="form-group col-md-6">
             <label asp-for="Nome" class="control-label"></label>
@@ -17,7 +15,6 @@
             <span asp-validation-for="Sobrenome" class="text-danger"></span>
         </div>
     </div>
-
     <div class="row">
         <div class="form-group col-md-6">
             <label asp-for="Endereco1" class="control-label"></label>
@@ -30,7 +27,6 @@
             <span asp-validation-for="Endereco2" class="text-danger"></span>
         </div>
     </div>
-
     <div class="row">
         <div class="form-group col-md-4">
             <label asp-for="Cep" class="control-label"></label>
@@ -48,7 +44,6 @@
             <span asp-validation-for="Estado" class="text-danger"></span>
         </div>
     </div>
-
     <div class="row">
         <div class="form-group col-md-6">
             <label asp-for="Telefone" class="control-label"></label>
@@ -62,14 +57,11 @@
         </div>
     </div>
     <br />
-
     <div class="row">
         <div class="form-group col-md-3">
             <input class="btn btn-success" type="submit" value="Concluir Pedido" />
         </div>
-
         &nbsp;
-
         <div class="form-group col-md-3">
             <a class="btn btn-outline-info" asp-controller="CarrinhoCompra" asp-action="Index">Retornar ao Carrinho</a>
         </div>

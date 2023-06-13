@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "roMG/Jx2XakJ+LvdsK9wR0cvnNfFspwwXZkHcjH0IFk=",
+  "Hash": "8+0+8TwX/Pxb6kW8Z5vt0c/RHvESC65MwLblGDK3W8k=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Layout\\icons8-speaker-phone-50.png"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\negado1.jpg",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\negado1.jpg"
     },
     {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\phone-app-icon.png",

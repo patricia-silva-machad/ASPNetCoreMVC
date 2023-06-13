@@ -1,8 +1,10 @@
 ﻿using Lanches.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lanches.Controllers {
+    [Authorize]
     public class AccountController : Controller 
     {
       //injeção de instancias
@@ -16,6 +18,7 @@ namespace Lanches.Controllers {
             _signInManager = signInManager;
         }
         // [HttpGet]
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl) 
         {
             return View(new LoginViewModel() 
@@ -23,7 +26,7 @@ namespace Lanches.Controllers {
                 ReturnUrl = returnUrl
             });
         }
-
+        [AllowAnonymous]
         [HttpPost] //post é obrigatorio colocar o verbo http
         public async Task<IActionResult> Login(LoginViewModel loginVM) 
         {
@@ -52,11 +55,12 @@ namespace Lanches.Controllers {
 
         }
         // [HttpGet]
+        [AllowAnonymous]
         public IActionResult Register() 
         {
             return View();
         }
-
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(LoginViewModel registroVM) 
@@ -79,7 +83,7 @@ namespace Lanches.Controllers {
             }
             return View(registroVM);
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Logout() 
         {
@@ -87,6 +91,11 @@ namespace Lanches.Controllers {
             HttpContext.User = null;
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied() 
+        {
+            return View();
         }
     }
 }

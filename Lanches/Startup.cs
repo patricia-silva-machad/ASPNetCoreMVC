@@ -15,7 +15,8 @@ public class Startup {
     public IConfiguration Configuration { get; }
 
     // This method gets called by the runtime. Use this method to add services to the container.
-    public void ConfigureServices(IServiceCollection services) {
+    public void ConfigureServices(IServiceCollection services) 
+    {
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -39,7 +40,8 @@ public class Startup {
 
         services.AddAuthorization(options => {
             options.AddPolicy("Admin",
-                politica => {
+                politica => 
+                {
                     politica.RequireRole("Admin");
                 });
         });
@@ -74,7 +76,6 @@ public class Startup {
         //cria os usuarios e atribui ao perfil
         seedUserRoleInitial.SeedUsers();
 
-        app.UseAuthorization();
         app.UseSession();
 
         app.UseAuthentication();

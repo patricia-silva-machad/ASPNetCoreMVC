@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\images\\faleconosco1.jpg"
     },
     {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\negado1.jpg",
+      "PackagePath": "staticwebassets\\images\\negado1.jpg"
+    },
+    {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\phone-app-icon.png",
       "PackagePath": "staticwebassets\\images\\phone-app-icon.png"
     },

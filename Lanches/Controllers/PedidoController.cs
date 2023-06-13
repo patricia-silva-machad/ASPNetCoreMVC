@@ -45,7 +45,6 @@ namespace Lanches.Controllers {
                 precoTotalPedido += (item.Lanche.Preco * item.Quantidade);
             }
 
-
             //atribui os valores obtidos ao pedido
             pedido.TotalItensPedido = totalItensPedido;
             pedido.PedidoTotal = precoTotalPedido;

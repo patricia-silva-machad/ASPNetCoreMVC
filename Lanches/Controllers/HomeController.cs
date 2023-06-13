@@ -23,7 +23,6 @@ namespace Lanches.Controllers {
             return View(homeViewModel);
         }
 
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, 
             NoStore = true)]
         public IActionResult Error() 

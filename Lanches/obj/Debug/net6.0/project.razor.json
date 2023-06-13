@@ -18464,11 +18464,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
       "FileKind": "mvc"
@@ -18499,11 +18494,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Home\\Demo.cshtml",
-      "TargetPath": "Views\\Home\\Demo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Shared\\_Carousel.cshtml",
       "TargetPath": "Views\\Shared\\_Carousel.cshtml",
       "FileKind": "mvc"
@@ -18531,6 +18521,11 @@
     {
       "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Areas\\Admin\\Views\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18566,11 +18561,6 @@
     {
       "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\CarrinhoCompra\\Index.cshtml",
       "TargetPath": "Views\\CarrinhoCompra\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\Views\\Home\\_IndexPartial.cshtml",
-      "TargetPath": "Views\\Home\\_IndexPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

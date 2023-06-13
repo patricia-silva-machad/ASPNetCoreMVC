@@ -6,12 +6,12 @@ namespace Lanches.Controllers {
             
         {
 
-            if (User.Identity.IsAuthenticated) 
-            {
+            //if (User.Identity.IsAuthenticated) 
+            //{
                 return View();
-            }
+            //}
 
-            return RedirectToAction("Login", "Account");
+            //return RedirectToAction("Login", "Account");
             
         }
     }
