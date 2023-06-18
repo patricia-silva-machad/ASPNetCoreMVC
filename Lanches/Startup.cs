@@ -5,6 +5,7 @@ using Lanches.Repositories.Interfaces;
 using Lanches.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace Lanches;
 public class Startup {
@@ -50,6 +51,10 @@ public class Startup {
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
         services.AddControllersWithViews();
+        services.AddPaging(options => {
+            options.ViewName = "Bootstrap4";
+            options.PageParameterName = "pageindex";
+        });
 
         services.AddMemoryCache();
         services.AddSession();
