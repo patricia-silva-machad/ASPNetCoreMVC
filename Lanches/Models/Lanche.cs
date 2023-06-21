@@ -47,6 +47,7 @@ namespace Lanches.Models
 
         //definicao das propriedades de navegação para relacionar a categoria com o lanche.
         //foreign key = CategoriaId
+        [Display(Name = "Categorias")]
         public int CategoriaId { get; set; }
         public virtual Categoria Categoria { get; set; }
 

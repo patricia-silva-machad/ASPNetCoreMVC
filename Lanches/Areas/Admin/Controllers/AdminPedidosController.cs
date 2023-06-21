@@ -10,6 +10,7 @@ using Lanches.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
 using ReflectionIT.Mvc.Paging;
+using Lanches.ViewModels;
 
 namespace Lanches.Areas.Admin.Controllers
 {
@@ -24,6 +25,25 @@ namespace Lanches.Areas.Admin.Controllers
             _context = context;
         }
 
+        public IActionResult PedidoLanches(int? id) 
+        {
+            var pedido = _context.Pedidos
+                        .Include(pd => pd.PedidoItens)
+                        .ThenInclude(l => l.Lanche)
+                        .FirstOrDefault(p => p.PedidoId == id);
+
+            if(pedido == null) 
+            {
+                Response.StatusCode = 404;
+                return View("PedidoNotFound", id.Value);
+            }
+
+            PedidoLancheViewModel pedidoLanches = new PedidoLancheViewModel() {
+                Pedido = pedido,
+                PedidoDetalhes = pedido.PedidoItens
+            };
+            return View(pedidoLanches);
+        }
         // GET: Admin/AdminPedidos
         //public async Task<IActionResult> Index()
         //{
