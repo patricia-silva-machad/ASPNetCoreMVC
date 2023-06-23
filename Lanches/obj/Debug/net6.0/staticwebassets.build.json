@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8+0+8TwX/Pxb6kW8Z5vt0c/RHvESC65MwLblGDK3W8k=",
+  "Hash": "lllwg/ZfpEYeJB5tPeKeJ8VcLzO4mZFyFROTo5rSESw=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -544,6 +544,40 @@
       "OriginalItemSpec": "wwwroot\\images\\phone-app-icon.png"
     },
     {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\produtos\\dc07bb3972a6a49800aba64858c08e68.jpg",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/produtos/dc07bb3972a6a49800aba64858c08e68.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\produtos\\dc07bb3972a6a49800aba64858c08e68.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\upload2.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/upload2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload2.png"
+    },
+    {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\user-interface.png",
       "SourceId": "Lanches",
       "SourceType": "Discovered",
@@ -559,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\user-interface.png"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\visualizar1.jpg",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/visualizar1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\visualizar1.jpg"
     },
     {
       "Identity": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\js\\site.js",

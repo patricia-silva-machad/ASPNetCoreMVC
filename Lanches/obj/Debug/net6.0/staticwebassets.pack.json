@@ -121,8 +121,20 @@
       "PackagePath": "staticwebassets\\images\\phone-app-icon.png"
     },
     {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\produtos\\dc07bb3972a6a49800aba64858c08e68.jpg",
+      "PackagePath": "staticwebassets\\images\\produtos\\dc07bb3972a6a49800aba64858c08e68.jpg"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\upload2.png",
+      "PackagePath": "staticwebassets\\images\\upload2.png"
+    },
+    {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\user-interface.png",
       "PackagePath": "staticwebassets\\images\\user-interface.png"
+    },
+    {
+      "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\images\\visualizar1.jpg",
+      "PackagePath": "staticwebassets\\images\\visualizar1.jpg"
     },
     {
       "Id": "C:\\Users\\patri\\Cursos-Udemy\\Dotnet6-Udemy\\ASPNetCoreMVC\\Lanches\\wwwroot\\js\\site.js",
